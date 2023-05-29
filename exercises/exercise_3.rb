@@ -6,3 +6,7 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+@store3 = Store.fnd(3)
+store3.destroy
+
+puts Store.count
